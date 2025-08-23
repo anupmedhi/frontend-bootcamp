@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+padding: 0;
+font-family: poppins, sans-serif;
+box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff9f9;
+}
+.profile-card{
+    width: 350px;
+    height: 450px;
+    background-color: #01031b;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(11, 1, 37, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: #212121;
+}
+/* Removed empty ruleset */
+.social-image{
+    width: 30px;
+    height: 30px;
+    margin-left: 250px;
+    border-radius: 50%;
+    margin-top: 5px;
+    
+    
+}
+.profile-image{
+    width: 120px;
+    height: 120px;
+    margin-top: 100px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 4px 20px rgba(11, 1, 37, 0.1);
+
+
+
+}.profile-card h3{
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 8px;
+}
+.profile-card p{
+    font-size: 16px;
+    color: #fdd9d9;
+    margin-top: -200px;
+    text-align: center;
+}
+.check-git-button{
+    display-inline-block;
+    text-decoration: none;
+    border: 1px solid #fdd9d9;
+   padding: 10px 25px;
+    border-radius: 10px;
+    background-color: #fdd9d9;
+    color: #01031b;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 220px;
+    
+
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.check-git-button:hover{
+    background-color: #f3f3f3;
+    color: #0b0000;
+    font-weight: 500;
+}
