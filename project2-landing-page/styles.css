@@ -87,9 +87,10 @@ margin-left: 50px;
   align-items: center;
   justify-content: center;
   text-align: center;
-  min-height: 60vh; /* adjust as needed */
+  min-height: 80vh; /* adjust as needed */
   padding: 3rem 1rem;
-background-image: url("https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80");
+background-image: url("image-icons/hero-bg.jpg");
+
   
   
   background-size: cover;
@@ -100,6 +101,7 @@ background-image: url("https://images.unsplash.com/photo-1506744038136-46273834b
 
 }
 .hero-content h1 {
+  margin-top: 150px;
   font-size: 3rem;
   margin-bottom: 1rem;
 
@@ -125,6 +127,12 @@ background-image: url("https://images.unsplash.com/photo-1506744038136-46273834b
   font-weight: 600;
   text-decoration: none;
   box-shadow: 0 8px 24px rgba(10,102,255,0.14);
+}
+
+
+/* primary-btn hover */
+.btn.primary-btn:hover {
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
 }
 /* Modern 3-card layout */
 .features {
