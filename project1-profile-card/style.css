@@ -58,7 +58,7 @@ box-sizing: border-box;
     text-align: center;
 }
 .check-git-button{
-    display-inline-block;
+    display: inline-block;
     text-decoration: none;
     border: 1px solid #fdd9d9;
    padding: 10px 25px;
